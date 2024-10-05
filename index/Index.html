@@ -1,0 +1,217 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="Personal data" content="portfolio">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link href="styles.css" rel="stylesheet">
+        <link rel="icon" type="image/x-icon" href="Images/favicon.png" border-radius="50%" >
+        <title> My Portfolio </title>
+        <script src="https://kit.fontawesome.com/831a3743f6.js" crossorigin="anonymous"></script>
+    </head>
+    <body>
+ <div id="Header">
+    <div class="container">
+        <nav>
+            <img src="Images/Logo3.png" alt="Logo" class="Logo">
+            <ul id="side_menu">
+                <li><a href="#header">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#services">Services</a></li>
+                <li><a href="#portfolio">Portfolio</a></li>
+                <li><a href="#contact">Contact</a></li>
+                <i class="fas fa-times" onclick="closemenu()"></i>
+            </ul>
+            <i class="fa-solid fa-bars" onclick="openmenu()"></i>
+        </nav>
+        <div class="header-text">
+            <p>UI/UX Designer</p>
+            <h1>Hi, I'm <span>Felix</span><br> From Kenya.</h1>
+        </div>
+    </div>
+ </div>
+ <!-----about--->
+ <div id="about">
+    <div class="container">
+        <div class="row">
+            <div class="about-col-1">
+               <img src="Images/Dream.jpeg" alt="image1"> 
+            </div>
+            <div class="about-col-2">
+                <h1 Class="Subtitle">About Me</h1>
+                <P>My name is Felix a student at the university of Embu. I am a developer student intrested 
+                    in Web development, Web application development, and C sharp development.
+                    Over the past years I have tried so much to grow my skills and that's why I am
+                    capable of developing websites like this one. 
+                </P>
+                <div class="tab-titles">
+                    <p class="tab-links active-link" onclick = "opentab('skills')">Skills</p>
+                    <p class="tab-links" onclick = "opentab('experience')">Experience</p>
+                    <p class="tab-links" onclick = "opentab('education')">Education</p>
+                </div>
+             <div class="tab-contents active-tab" id="skills">
+                <ul>
+                    <li><span>UI/UX</span><br>Designing Web/App interfaces</li>
+                    <li><span>Web development</span><br>Web Application development</li>
+                    <li><span>App Development</span><br>Building Android/ iOS apps</li>
+                </ul>
+            </div>
+            <div class="tab-contents" id="experience">
+                <ul>
+                    <li><span>2021 - current</span><br>UI/UX Design Training at ET Institute.</li>
+                    <li><span>2019-2021</span><br>Team lead at StarApp LLC.</li>
+                    <li><span>2017-2019</span><br>UI/UX Design Executive at Coin Digital Ltd.</li>
+                    <li><span>2016-2017</span><br>Internship at ekart eCommerce.</li>
+                </ul>
+            </div>
+            <div class="tab-contents" id="education">
+                <ul>
+                    <li><span>2016</span><br>UI/UX Design Training at ET Institute.</li>
+                    <li><span>2016</span><br>MBA from MIT Bangalore.</li>
+                    <li><span>2014</span><br>BBA from ISM Bangalore.</li>
+                </ul>
+            </div>
+        </div>
+        </div>
+    </div>
+ </div>
+ <!------Services------->
+ <div id="services">
+    <div class="container">
+        <h1 Class="Subtitle">My Services</h1> 
+        <div class="services-list">
+            <div>
+                <i class="fa-solid fa-code"></i>
+                <h2>Web Design</h2>
+                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Animi dolores,
+                     repellat eligendi, et minus consequatur tempora, consectetur impedit rem 
+                     deserunt iure maiores itaque enim quaerat voluptatem nemo vero deleniti facere?
+                    </p>
+                    <a href="#">Learn more.</a>
+            </div>
+            <div>
+                <i class="fa-solid fa-crop-simple"></i>
+                <h2>UI/UX Design</h2>
+                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Animi dolores,
+                     repellat eligendi, et minus consequatur tempora, consectetur impedit rem 
+                     deserunt iure maiores itaque enim quaerat voluptatem nemo vero deleniti facere?
+                    </p>
+                    <a href="#">Learn more.</a>
+            </div>
+            <div>
+                <i class="fa-brands fa-app-store"></i>
+                <h2>App Design</h2>
+                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Animi dolores,
+                     repellat eligendi, et minus consequatur tempora, consectetur impedit rem 
+                     deserunt iure maiores itaque enim quaerat voluptatem nemo vero deleniti facere?
+                    </p>
+                    <a href="#">Learn more.</a>
+            </div>
+        </div>   
+    </div>
+ </div>
+ <!---------------Port folio------------------>
+ <div id="portfolio">
+    <div class="container">
+        <h1 class="sub-title">My Work</h1>
+        <div class="work-List">
+            <div class="work">
+                <img src="Images/Code2.jpeg" alt="">
+                <div class="layer">
+                    <h3>Social Media App</h3>
+                    <p>The app connects you to the talented people around the world.
+                        Download it from play store.
+                    </p>
+                    <a href="https://play.google.com/store/apps?hl=en&gl=US" target="_blank"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="Images/Code.jpeg" alt="">
+                <div class="layer">
+                    <h3>Music App</h3>
+                    <p>The app connects you to the talented people around the world.
+                        Download it from play store.
+                    </p>
+                    <a href="https://play.google.com/store/apps?hl=en&gl=US" target="_blank"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="Images/Favourate.jpeg" alt="">
+                <div class="layer">
+                    <h3>Online Shopping App</h3>
+                    <p>The app connects you to the talented people around the world.
+                        Download it from play store.
+                    </p>
+                    <a href="https://play.google.com/store/apps?hl=en&gl=US" target="_blank"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                </div>
+            </div>
+        </div>
+        <a href="#" class="btn">See more</a>
+    </div>
+ </div>
+ <!---------------Contacts---------------->
+ <div id="contact">
+    <div class="container">
+       <div class="row">
+        <div class="contact-left">
+          <h1>Contact Me.</h1>
+          <p><i class="fa-solid fa-paper-plane   "></i>felixmuia182@gmail.com</p>
+          <p><i class="fa-solid fa-phone-volume   "></i>0768050171</p>
+          <div class="social-icons">
+            <a href="https://facebook.com/" target="_blank"><i class="fa-brands fa-facebook"></i></a>
+            <a href="https://twitter.com/home" target="_blank"><i class="fa-brands fa-twitter-square"></i></a>
+            <a href="https://www.instagram.com/" target="_blank"><i class="fa-brands fa-instagram"></i></a>
+            <a href="https://www.linkedin.com/in/felix-muia-1470a72b5/" target="_blank"><i class="fa-brands fa-linkedin"></i></a>
+          </div>
+          <a href="Images/Research proposal.pdf" download class="btn btn2">Download CV</a>
+        </div>
+        <div class="contact-right">
+            <h2 id="form-header">Get in touch:</h2>
+            <form action="https://api.web3forms.com/submit" method="POST">
+            <input type="hidden" name="access_key" value="3acff730-f046-487b-ab20-2fe6a7f2125b">
+            <label for="name">Enter your name:</label>
+            <input type="name" name="name" placeholder="John Doe" required>
+            <label for="email">Enter your Email address:</label>
+            <input type="email" name="email" placeholder="example@gmail.com" required>
+            <label for="phone">Enter your phone number:</label>
+            <input type="number" name="phone number" placeholder="+254...." required>
+            <label for="Message">Enter your Message:</label>
+            <textarea name="Message" id="text-area" cols="50" rows="10" placeholder="Type your message here"></textarea>
+                <button type="submit" class="btn btn2">Submit</button>
+            </form>
+            <span id="msg"></span>
+        </div>
+       </div>
+    </div>
+    <hr>
+    <div class="copyright">
+        <p>  Copyright &copy; Felix. Made with <i class="fa-solid fa-heart"></i> by Easy Tutorials</p>
+       Copyright &copy; <script>document.write(new Date().getFullYear())</script>.
+    </div>
+ </div>
+ <script>
+    var tablinks=document.getElementsByClassName("tab-links");
+    var tabcontents=document.getElementsByClassName("tab-contents");
+
+   function opentab (tabname) {
+    for(tablink of tablinks){
+        tablink.classList.remove("active-link");
+    }
+    for(tabcontent of tabcontents){
+        tabcontent.classList.remove("active-tab");
+    }
+    event.currentTarget.classList.add("active-link");
+    document.getElementById(tabname).classList.add("active-tab");
+   }
+ </script>
+ <script>
+    var sidemenu=document.getElementById("side_menu");
+    function openmenu(){
+        sidemenu.style.right="0";
+    }
+    function closemenu(){
+        sidemenu.style.right="-200px";
+    }
+ </script>
+    </body>
+</html>
